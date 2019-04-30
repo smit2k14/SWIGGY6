@@ -1,15 +1,10 @@
 import requests
 import json
 import time
-from gtts import gTTS
 from pygame import mixer
 #Enter your url here and enjoy your free offer!!
 url = 'https://www.cricbuzz.com/match-api/21859/commentary.json'
 
-tts = gTTS('Six Six Six')
-tts.save('six.mp3')
-tts = gTTS('You have run into an error. The API is not accepting calls. You need to run this code again.')
-tts.save('error.mp3')
 f = 0
 c = time.time()
 while True:
